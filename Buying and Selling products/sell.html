@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sell.css">
+    <title>Product Selling Website</title>
+</head>
+<body>
+    <h1>Add a Product</h1>
+    <div class="product-form">
+        <label for="product-type">Product Type:</label>
+        <input type="text" id="product-type" required>
+
+        <label for="product-name">Product Name:</label>
+        <input type="text" id="product-name" required>
+
+        <label for="product-address">Address:</label>
+        <input type="text" id="product-address" required>
+
+        <label for="price">Price:</label>
+        <input type="text" id="price" required>
+
+        <label for="product-image">Upload Product Image:</label>
+        <input type="file" id="product-image-upload" accept="image/*" required>
+
+        <button id="add-button">Add</button>
+    </div>
+
+    <script src="sell.js"></script>
+</body>
+</html>
